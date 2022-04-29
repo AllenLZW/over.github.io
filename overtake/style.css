@@ -1,0 +1,60 @@
+body{
+
+}
+
+.img1{
+    background-image: url(images/Home.png);
+}
+
+.bg_img{
+    width: 100vw;
+    height: 140vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*[data-animation="ripple"] {
+    height: 100%;
+    width: 100%;
+    display: block;
+    outline: none;
+
+    color: #fff;
+    background-color: transparent;
+ 
+    cursor: pointer;
+    
+    -webkit-tap-highlight-color: transparent;
+}
+
+    *[data-animation="ripple"]:focus {
+        outline: none;
+    }
+
+    *[data-animation="ripple"]::selection {
+        background: transparent;
+        pointer-events: none;
+    }
+
+    .btnStyle{
+        background-color: transparent;
+        width: 87%; height: 20vw;
+        left: 7vw; 
+        position: absolute;  
+        border: none;
+    }
+
+    .btn1 {
+        top: 0;
+   
+    }
+
+    .btn2{
+        top: 27vw; 
+    }
+    .btn3{
+        top: 54vw;
+    }
+    .btn4{
+        top: 81vw;
+    }
